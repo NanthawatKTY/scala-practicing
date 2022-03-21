@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef21d89b-d78c-46a2-9ab6-b1e788249330" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ifElseState.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/functionScala.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/loop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/matchExpression.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$42022d6c61c92ea02ac0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Hello.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.1/classes/Hello.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.1/classes/Hello.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.1/update/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.1/update/update_cache_3/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/ivyConfiguration/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,9 +51,16 @@
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="6" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.ifElseState">
+  <component name="RunManager" selected="Application.functionScala">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="scala-practicing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functionScala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="functionScala" />
       <module name="scala-practicing" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,8 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="loop" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="loop" />
+      <module name="scala-practicing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matchExpression" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="matchExpression" />
+      <module name="scala-practicing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.functionScala" />
+        <item itemvalue="Application.matchExpression" />
+        <item itemvalue="Application.loop" />
         <item itemvalue="Application.ifElseState" />
         <item itemvalue="Application.Hello" />
       </list>
